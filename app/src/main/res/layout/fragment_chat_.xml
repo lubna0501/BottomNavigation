@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.chat_Fragment">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sign up "
+        android:id="@+id/signup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+         android:textSize="20dp"
+         />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="name"
+        android:id="@+id/name"
+        android:layout_below="@+id/signup"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="email"
+        android:id="@+id/email"
+        android:layout_below="@+id/name"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="phone no"
+        android:id="@+id/phone"
+        android:layout_below="@+id/email"
+        android:layout_marginTop="20dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sign up"
+        android:layout_below="@+id/phone"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>
